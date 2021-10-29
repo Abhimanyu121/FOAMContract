@@ -3,6 +3,7 @@ pragma solidity >=0.4.21 <0.7.0;
 contract FOAM {
     
    // mapping(address => Details) public user_poi_mapping; //one user can add only one set of information
+// mapping(address => Details) public user_poi_mapping; //one user can add only one set of information
     enum voteStatus {NONE, UP, DOWN}
     mapping(string => mapping(address => uint))  hash_poi;
     mapping(string => Details[]) public detail_array;
