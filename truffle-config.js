@@ -40,7 +40,7 @@ module.exports = {
       provider: function() {
         return new HDWalletProvider("gesture rather obey video awake genuine patient base soon parrot upset lounge", `https://testnetv3.matic.network`)
       },
-      network_id: 15001,
+      network_id: 80001,
       gasPrice: '0x0',
       confirmations: 2,
       timeoutBlocks: 200,
